@@ -23,6 +23,7 @@
     "start": "react-scripts start",
     "build": "react-scripts build",
     "build-custom": "react-scripts build --output-path=build --output-filename=embed-survey.js",
+    "build-webpack": "npx webpack --config webpack.config.js",
     "test": "react-scripts test --env=jsdom",
     "eject": "react-scripts eject"
   },
