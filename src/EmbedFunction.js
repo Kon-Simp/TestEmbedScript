@@ -11,4 +11,5 @@ function helloWorld() {
 }
 
 const EmbedFunctions = { sum, minus, helloWorld };
+alert("hello world");
 export default EmbedFunctions;
