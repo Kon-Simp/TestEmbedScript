@@ -3,9 +3,9 @@ const path = require("path");
 module.exports = {
   entry: "./src/EmbedFunction.js",
   output: {
-    filename: "my-functions.js",
+    filename: "embed-functions.js",
     path: path.resolve(__dirname, "dist"),
-    library: "MyFunctions",
+    library: "EmbedFunctions",
     libraryTarget: "umd",
   },
 };
